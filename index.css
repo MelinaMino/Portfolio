@@ -9,6 +9,10 @@ body {
     font-family: 'Jost';
 }
 
+a:hover {
+    background-color: #8D80AD;
+}
+
 header {
     height: 15%;
     width: 100%;
