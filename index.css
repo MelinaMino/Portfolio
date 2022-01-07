@@ -1,99 +1,169 @@
 @font-face {
-    font-family: 'Jost';
-    src: url(./Fuentes/Jost-VariableFont_wght.ttf);
-}
-
-body {
-    background-color: #170F11;
-    margin: 0;
-    font-family: 'Jost';
-}
-
-a:hover {
-    background-color: #8D80AD;
-}
-
-header {
-    height: 15%;
-    width: 100%;
-    display: flex;
-    background-color: #E2FCEF;
-    align-items: center;
-}
-
-.imagen-logo {
-    height: 80%;
-    width: 20%;
-    margin: 10px;
-}
-
-img {
-    height: 100%;
-    width: 45%;
-    object-fit: cover;
-}
-
-.navbar {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-}
-
-ul {
-    list-style: none;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-li {
-    display: inline-block;
-    text-decoration: none;
-    align-items: center;
-    color: #5C164E;
-    margin-right: 20px;
-}
-
-.infopersonal {
-    margin-top: 30px;
-    height: auto;
-    width: 100%;
-    background-color: #8D80AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagen-personal {
-    height: 20%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.descripcion {
-    height: 20%;
-    width: 50%;
-    color: #E2FCEF;
-}
-
-button {
-    background-color: #5C164E;
-    color: #E2FCEF;
-    height: 30px;
-    width: 150px;
-}
-
-.sobremi {
-    margin: 30px 270px 30px 270px;
-    height: 15%;
-    width: 50%;
-    color: #868784;
-}
-
-p {
-    font-weight: 600;
+        font-family: 'Jost';
+        src: url(./Fuentes/Jost-VariableFont_wght.ttf);
+    }
+    
+    body {
+        background-color: #170F11;
+        margin: 0;
+        font-family: 'Jost';
+        font-weight: 300;
+    }
+    
+    a:hover {
+        background-color: #8D80AD;
+    }
+    
+    header {
+        height: 15%;
+        width: 100%;
+        display: flex;
+        background-color: #E2FCEF;
+        align-items: center;
+    }
+    
+    .imagen-logo {
+        height: 80%;
+        width: 20%;
+        margin: 10px;
+    }
+    
+    .imgyo {
+        height: 100%;
+        width: 45%;
+        object-fit: cover;
+    }
+    
+    .navbar {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+    
+    ul {
+        list-style: none;
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    li {
+        display: inline-block;
+        text-decoration: none;
+        align-items: center;
+        color: #5C164E;
+        margin-right: 20px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .infopersonal {
+        margin-top: 30px;
+        height: auto;
+        width: 100%;
+        background-color: #8D80AD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagen-personal {
+        height: 20%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .descripcion {
+        height: 20%;
+        width: 50%;
+        color: #E2FCEF;
+    }
+    
+    button {
+        background-color: #5C164E;
+        color: #E2FCEF;
+        height: 30px;
+        width: 150px;
+    }
+    
+    .sobremi {
+        margin: 30px 270px 30px 270px;
+        height: 15%;
+        width: 50%;
+        color: #868784;
+    }
+    
+    .descrip {
+        font-weight: 600;
+    }
+    
+    .ventajas {
+        height: 20%;
+        width: 100%;
+        flex-direction: column;
+        background-color: #E2FCEF;
+        color: #5C164E;
+        text-align: center;
+    }
+    
+    .beneficios,
+    .work {
+        background-color: #E2FCEF;
+        height: 60%;
+        width: 100%;
+        color: #5C164E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .b1,
+    .b2,
+    .b3,
+    .work1,
+    .work2,
+    .work3,
+    .work4 {
+        text-align: center;
+    }
+    
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+    
+    .imgventajas,
+    .imgnum {
+        height: 25%;
+        width: 25%;
+        object-fit: contain
+    }
+    
+    .h3work,
+    .h3ventaja {
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+    
+    .howwork {
+        background-color: #E2FCEF;
+        color: #5C164E;
+        height: 30%;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .iconmenu {
+        background-color: red;
+    }
+    
+    @media (max-waight:780px) {}
 }
